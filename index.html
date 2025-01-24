@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typical Sunday</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h1>Typical Sunday: Roast Dinner Hiking Calculator</h1>
+    <p>Click the buttons to add food and see how long you have to hike to work off your roast.</p>
+    <br>
+    <div id="food-buttons" class="food-buttons">
+      <!-- Food buttons will be dynamically generated -->
+    </div>
+    <div class="output-container">
+<div id="added-foods-container" class="added-foods-container">
+  <div id="food-buttons" class="food-buttons"></div>
+  <h2>Added Foods</h2>
+  <ul id="added-foods-list"></ul>
+</div>
+   <div id="added-foods-container">
+  <h2>Added Foods</h2>
+  <ul id="added-foods-list"></ul>
+</div>
+
+<div class="output-container">
+  <h2>Hiking Time to Burn Off Calories</h2>
+  <p><strong>Largely Flat:</strong> <span id="flat-time">0</span> minutes</p>
+  <p><strong>Hilly:</strong> <span id="hilly-time">0</span> minutes</p>
+  <p><strong>Treacherous:</strong> <span id="treacherous-time">0</span> minutes</p>
+</div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

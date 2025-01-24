@@ -1,0 +1,54 @@
+.food-button {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+}
+
+.button-container {
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+
+.button-label {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+body {
+  background-color: #d8f3dc; /* Light green color */
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+#added-foods-list li {
+    list-style-type: disc; /* Adds bullet points */
+  margin-bottom: 10px; /* Adds spacing between added foods */
+  list-style: none;   /* Optional: Remove bullet points */
+}
+
+.output-container {
+  text-align: left; /* Aligns the hiking time section to the left */
+  margin-top: 20px; /* Adds some spacing above this section */
+}
+
+#added-foods-container {
+  text-align: left; /* Aligns the added foods section to the left */
+  margin-bottom: 20px; /* Adds spacing below this section */
+}

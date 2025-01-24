@@ -1,6 +1,6 @@
 // Data for food and calories
 const foodData = [
-  { name: "Roast Chicken Breast (1 slice)", calories: 60, image: "https://thecozyapron.com/wp-content/uploads/2019/12/roasted-chicken-breasts_thecozyapron_1.jpg"},
+  { name: "Roast Chicken Breast (1 serving)", calories: 240, image: "https://thecozyapron.com/wp-content/uploads/2019/12/roasted-chicken-breasts_thecozyapron_1.jpg"},
   { name: "Roast Chicken Thigh and Drumstick", calories: 310, image: "https://www.wholesomeyum.com/wp-content/uploads/2022/01/wholesomeyum-Baked-Chicken-Leg-Quarters-Recipe-9.jpg"},
   { name: "Roast Beef (1 serving)", calories: 170, image: "https://www.recipetineats.com/tachyon/2019/05/Marinated-Roast-Beef_7-1.jpg" },
   { name: "Roast Pork Belly (1 serving)", calories: 585, image: "https://recipes.pork.com.au/wp-content/uploads/sites/2/2018/10/Fool-proof-roast-pork-belly-2400-x-1800.jpg"},
